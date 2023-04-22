@@ -7,6 +7,8 @@ const reverseString = function (str) {
     }while(n >= 0);
     
     return reverseStr;
+
+    // return str.split(``).reverse().join(``)  <-- cleaner and the way it was intended
 };
 
 // Do not edit below this line
